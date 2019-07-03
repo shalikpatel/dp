@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+int maxprice(int price[], int n)
+{
+    int dp[n+1][n+1];
+    for(int i = 0; i <= n; i++) {
+        for(int j = 0; j <= n; j++) {
+            if(i == 0 || j == 0) {
+                dp[i][j] = 0;
+            } else {
+                if(j < i) {
+                    dp[i][j] = dp[i-1][j];
+                } else {
+                    dp[i][j] = max(price[i-1] + dp[i][j-i], dp[i-1][j]);
+                }
+            }
+        }
+    }
+    
+    
+    return dp[n][n];
+}
+
+int main() {
+	int t;
+	cin >> t;
+	while(t--) {
+	    int n;
+	    cin >> n;
+	    int price[n];
+	    for(int i = 0; i < n; i++) {
+	        cin >> price[i];
+	    }
+	    //fuction calling for printing maximum price.
+	    cout << maxprice(price, n) << endl;
+	}
+	return 0;
+}
+
+
+
+/*
+
+INPUT
+1
+6
+3 5 6 8 9 12
+
+OUTPUT:
+18
