@@ -1,6 +1,8 @@
 /*
 Problem:
-Given a sequence A of size N, find the length of the longest increasing subsequence from a given sequence .
+Given a sequence A of size N, find the length of the longest increasing subsequence from a given sequence.
+
+Watch Video Explantion of this question on YouTube - Hindi Tutorials darshan 
 */
 
 #include <iostream>
