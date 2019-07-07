@@ -3,6 +3,8 @@ Problem:
 Given a value N, find the number of ways to make change for N cents, 
 if we have infinite supply of each of S = { S1, S2, .. , Sm} valued coins. 
 The order of coins doesn’t matter.
+
+Watch Video Explantion of this and other questions on YouTube channel - Hindi Tutorials darshan 
 */
 
 #include <bits/stdc++.h>
