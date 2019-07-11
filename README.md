@@ -8,4 +8,4 @@ https://www.youtube.com/hinditutorialsdarshan
 
 # C Programming Solution.
 for learning Programming and placement tips install 
-C Programming Solution Android app - https://play.google.com/store/apps/details?id=com.shalik.patel.cprogrammingsolution&hl=en_US
+C Programming Solution Android app from google play store - https://play.google.com/store/apps/details?id=com.shalik.patel.cprogrammingsolution&hl=en_US
